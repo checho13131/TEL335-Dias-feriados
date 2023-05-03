@@ -1,0 +1,23 @@
+{
+  "name": "Primera_entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Sergio Rojas Escanilla",
+  "license": "ISC",
+  "dependencies": {
+    "@mediapipe/holistic": "^0.5.1675471629",
+    "bootstrap": "^5.3.0-alpha3",
+    "koa": "^2.14.2",
+    "koa-ejs": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^12.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
