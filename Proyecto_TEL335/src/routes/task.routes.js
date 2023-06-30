@@ -2,12 +2,11 @@ const express = require('express');
 const router = express.Router();
 
 const Task = require('../models/task');
-const task = require('../models/task');
 router.get('/', async (req, res) => {
-    const task = await Task.find();
-    console.log(task);
+    const tasks = await Task.find();
+    console.log(tasks);
     //Task.find().then(data => console.log(data));
-    res.json(task);
+    res.json(tasks);
 });
 
 router.post('/', async (req, res) =>{
